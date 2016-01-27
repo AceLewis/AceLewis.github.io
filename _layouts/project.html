@@ -1,0 +1,41 @@
+---
+layout: default
+---
+
+{% include wrap.html %}
+
+<div class="container mt">
+    <div class="row">
+
+        {% include carousel.html %}
+
+        <div class="col-lg-7 col-lg-offset-1">
+            <div class="spacing"></div>
+            {% include share.html %}
+            <br>
+            {{ content }}
+
+            {% include share.html %}
+
+        </div>
+        <div class="col-lg-3">
+            <div class="spacing"></div>
+            <h4>Project Details</h4>
+            <div class="hline"></div>
+            {% if page.date_string %} <p><b>Date:</b> {{ page.date_string }}</p>{% endif %}
+            {% if page.other_people %}<p><b>Other people:</b> {{page.other_people | join: ', '}}</p>{% endif %}
+            {% if page.language %}    <p><b>Language:</b> {{page.language | join: ', '}}</p>{% endif %}
+            <p><b>Tagged:</b> {{page.tagged | join: ', '}}</p>
+            {% if page.website %}     <p><b>URL:</b> <a href="{{ page.website }}">{{ page.website }}</a></p>{% endif %}
+        </div>
+    </div><! --/row -->
+    <div class="row">
+        <div class="col-lg-10 col-lg-offset-1">
+
+            {% include google.html %}
+            {% include disquis.html %}
+        </div>
+    </div>
+</div><! --/container -->
+
+{% include projects.html title="Other Projects." limit=5 %}

@@ -1,0 +1,32 @@
+---
+layout: project
+title:  test post
+date:   2015-01-26
+date_string: February 2015
+author:
+published: false
+# post type
+categories:
+- project
+
+
+img:
+
+thumb:
+
+carousel:
+
+other_people:
+
+language:
+- Node.JS
+
+tagged:
+- test post
+
+website:
+
+about: test post
+---
+#### test post
+test post

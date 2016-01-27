@@ -1,0 +1,14 @@
+<div id="projectswrap">
+    <div class="container">
+        {% if include.title %}<h1 align="center">{{ include.title }}</h1>{% endif %}
+        <div class="col-lg-12">
+            <ul>
+            {% for project in site.categories['project'] limit:include.limit %}
+                <li>
+                    <font size="5"><a href="{{  project.url | prepend: site.baseurl }}">{{ project.title }}</a> - {{ project.about }}</font>
+                </li>
+            {% endfor %}
+            </ul>
+        </div><!-- projects -->
+    </div><!-- projects container -->
+</div><!--/projectswrap -->

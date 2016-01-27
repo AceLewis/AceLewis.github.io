@@ -1,0 +1,64 @@
+---
+layout: project
+title:  Spintax
+date:   2015-06-12
+date_string:
+author:
+published: true
+# post type
+categories:
+- project
+
+
+img:
+
+thumb:
+
+carousel:
+
+other_people:
+
+language:
+- Python
+
+tagged:
+- Spintax
+- Spintax parser
+- Text Spinning
+
+website: http://github.com/AceLewis/Spintax
+
+about: A Python module to parse spintax, this was created so one of my bots can send people messages that are not the same every time.
+---
+#### Spintax
+This is a Python module that parses Spintax. Spintax also known as spinning syntax is often used then text is "spun", all this means is that the code can create many sentences or paragraphs that are all worded differently however all mean the same thing.
+
+##### Simple example:
+    "{Hey|Hello|Hi} {this|here} is {an example of|how to use} Spintax{.|!|}"
+
+##### Can produce:
+* Hey this is an example of Spintax.
+* Hi here is how to use Spintax
+* Hello this how to use Spintax
+* Hi here is an example of Spintax!
+
+The above example Spintax can return 36 possibilities however this number grows exponentially as more spintax is used.
+
+This code was originally made so the bots I code can respond with automated responses that are unique, I found that by doing this people tended to interact with the bot more. I also noticed that by displaying the same information different ways to people who had trouble understanding English (as it was not their native language) were more likely to understand the meaning of the sentence.
+
+There are many applications of Spintax from generating [memorable passwords](https://github.com/AceLewis/spintax/blob/master/examples/simple_password_generator.py){:target="_blank"}{{_}} and [usernames](https://github.com/AceLewis/spintax/blob/master/examples/super_hero_name_generator.py){:target="_blank"}{{_}} to making automated responses seem less robotic. Spintax is also often used for small local newspapers and news stations, instead of employing someone to write articles on specialised topics such as the current economy or other national things covered they outsource the writing to a company e.g. [Eurekalert](http://www.eurekalert.org/){:target="_blank"}{{_}} that will write a good article once using Spintax and then distribute many spun articles to their customers. This is often not noticed as most people only get one local newspaper, however this does create similar content and has been pointed out by many people including [Conan O'Brien](https://youtu.be/44ojS4UNn8I?t=16s){:target="_blank"}{{_}}.
+
+This module is simple to use;
+
+    import spintax
+    string = r"{Hey|Hello|Hi} {this|here} is {an example of|how to use} Spintax{.|!|}"
+    print(spintax.parse(string))
+
+Just input the string into the parse function and it will return the spun text, unlike other Spintax parsers this parser is allows the user to escape the syntax characters for example;
+
+    spintax.parse(r"\{example|shown|here}")
+    >> ['{example|shown|here}']
+
+To download this module either download a copy from [Github](https://github.com/AceLewis/Spintax){:target="_blank"}{{_}} and install manually or use pip,
+
+    pip install spintax

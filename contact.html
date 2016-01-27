@@ -1,0 +1,27 @@
+---
+layout: contact
+title: Contact
+permalink: /contact/
+---
+
+<div id="contactwrap"></div>
+
+<div class="container mtb">
+    <div class="row">
+        <div class="col-lg-8">
+            <h4>How to get in contact!</h4>
+            <div class="hline"></div>
+                <p>{{ site.about_contact }}</p>
+        </div><! --/col-lg-8 -->
+
+        <div class="col-lg-4">
+            <h4>Where to contact me</h4>
+            <div class="hline"></div>
+                </br>
+                {% for website in site.contact %}
+                    {{ website.title }} : <a href="{{ website.url }}" > {{ website.site_name }}</a></br>
+                {% endfor %}
+                <p>{{ site.where_to_contact_text }}</p>
+        </div>
+    </div><! --/row -->
+</div><! --/container -->

@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+{% include wrap.html %}
+
+<div class="container mtb">
+    <div class="row">
+        <! -- SINGLE POST -->
+        <div class="col-lg-8">
+            <! -- Blog Post  -->
+            <p><img class="img-responsive" src="{{ "/assets/img/blog/" | prepend: site.baseurl }}{{ page.img }}" style = "width:100%"></p>
+            <a href="{{ page.url | prepend: site.baseurl }}"><h3 class="ctitle">{{ page.title }}</h3></a>
+            <p><csmall>{{ page.date | date: "%-d %b, %Y" }}. | By: {% if page.author %} {{ page.author }} {% else %} {{ site.blog_name }}{% endif %}</csmall></p>
+            {% include share.html %}
+            <br>
+            {{ content }}
+
+            {% include share.html %}
+            {% include google.html %}
+            {% include disquis.html %}
+            <div class="spacing"></div>
+        </div><! --/col-lg-8 -->
+
+        {% include sidebar.html %}
+
+    </div><! --/row -->
+</div><! --/container -->
