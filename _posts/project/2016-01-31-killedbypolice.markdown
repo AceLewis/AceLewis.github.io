@@ -27,7 +27,7 @@ tagged:
 
 website:
 
-about: A project scraping and processing data from killedbypolice.net
+about: A project scraping and processing data obtained from killedbypolice.net
 ---
 
 ![Main Infographic](/assets/img/project/killedbypolice/killed-by-police.png){: .center-image }
