@@ -35,10 +35,10 @@ about: A project scraping and processing data obtained from killedbypolice.net
 #### About the project
 This project obtained data from [killedbypolice.net](http://killedbypolice.net){:target="_blank"}{{_}} and used that data to look at the statistics of the people killed by the U.S. police force, e.g race, gender and age. The data on [killedbypolice.net](http://killedbypolice.net){:target="_blank"}{{_}} nearly always has a news articles attached the deaths are only recorded from U.S. Police and not police around the world.
 
-#### Infographics
-The code used to obtain and look at the data is available on [GitHub](https://github.com/AceLewis/killedbypolice){:target="_blank"}{{_}}, the main infographic is shown above, other infographics with just the specific area (race, gender ect.) are shown below. All killedbypolice infographics (the images) are licensed under [Creative Commons, Atribution-ShareAlike (CC BY-SA)](https://creativecommons.org/licenses/by-sa/3.0/){:target="_blank"}{{_}} so you can share them on Facebook, Twitter or other social media sites.
+#### Visualization of data
+The code used to obtain and look at the data is available on [GitHub](https://github.com/AceLewis/killedbypolice){:target="_blank"}{{_}}, the main images is shown above, other images with just the specific area (race, gender ect.) are shown below. All killedbypolice images are licensed under [Creative Commons, Atribution-ShareAlike (CC BY-SA)](https://creativecommons.org/licenses/by-sa/3.0/){:target="_blank"}{{_}} so you can share them on Facebook, Twitter or other social media sites.
 
-#### Other Infographics
+#### Other Images
 * [<font size="5">Just race</font>](/assets/img/project/killedbypolice/killed-by-police-race.png){:target="_blank"}{{_}}
 * [<font size="5">Just gender</font>](/assets/img/project/killedbypolice/killed-by-police-gender.png){:target="_blank"}{{_}}
 * [<font size="5">Just cause of death</font>](/assets/img/project/killedbypolice/killed-by-police-method.png){:target="_blank"}{{_}}
@@ -50,7 +50,7 @@ The code used to obtain and look at the data is available on [GitHub](https://gi
 #### The Code
 This project was coded in Python 3 (although it should work in Python 2 aswell), the code is available on [GitHub https://github.com/AceLewis/killedbypolice](https://github.com/AceLewis/killedbypolice){:target="_blank"}{{_}}. The data was obtained from [killedbypolice.net](http://killedbypolice.net){:target="_blank"}{{_}} on this website there is a big table of data, the table's HTML is difficult to parser (due to broken HMTL) so I had to resort to using Selenium and Firefox to obtain the HTML for two of the years.
 
-As mentioned in the infographic a better Histogram can be obtained using matplotlib, this is shown below. The software I used to make the infographic looked ugly when the number of bars was this high.
+As mentioned in the main image a better Histogram can be obtained using matplotlib, this is shown below. The software I used to make the image looked ugly when the number of bars was this high.
 
 ![Nicer Histogram](/assets/img/project/killedbypolice/nicer_histogram.png){: .center-image }
 
