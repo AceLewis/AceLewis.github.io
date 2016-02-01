@@ -3,7 +3,7 @@
 # Site settings
 title: AceLewis.com
 description: "A website for me to do things with"
-blog_name: "Alexander Lewis"
+blog_name: "Alexander Lewis (AceLewis)"
 analytics: UA-70463146-1 #Google analytics code in the format XX-nnnnnnnn-n
 baseurl: "" #important: start with /
 url: "https://acelewis.com"
