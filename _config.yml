@@ -28,15 +28,17 @@ twitter_username: "_AceLewis"
 # Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
 social:
   - title: Twitter
-    fa_icon: <i class="fa fa-twitter fa-2x"></i>
+    fa_icon: <i class="fa fa-twitter"></i>
     url: https://twitter.com/_AceLewis
   - title: Reddit
-    fa_icon: <i class="fa fa-reddit-alien fa-2x"></i>
-        #<img src="../../../../assets/img/networks/reddit.svg">
+    fa_icon: <i class="fa fa-reddit-alien"></i>
     url: https://reddit.com/u/_AceLewis
   - title: Github
-    fa_icon: <i class="fa fa-github fa-2x"></i>
+    fa_icon: <i class="fa fa-github"></i>
     url: https://github.com/AceLewis
+  - title: YouTube
+    fa_icon: <i class="fa fa-youtube"></i>
+    url: https://www.youtube.com/channel/UCRn4xTmE0IIEPsdt6R0gzcw
 
 contact:
   - title: Twitter
