@@ -13,7 +13,7 @@ tags:
 - ethics
 - adverts
 
-img: adblock.jpg
+img: adblock.png
 thumb: adblock-hand.png
 ---
 
@@ -32,7 +32,7 @@ Obviously this is not real however I wanted to check to see exactly what is was,
 
 ![alt text][Adware notice]
 
-[Adware notice]: /assets/img/blog/the-ethics-of-adblock/adware-notice.jpg "Test showing that it is adware"
+[Adware notice]: /assets/img/blog/the-ethics-of-adblock/adware-notice.png "Test showing that it is adware"
 
 I then installed the software on a Virtual Machine and as expected it installed adware and did not give you a copy of Minecraft as promised. Google, Yahoo and other advertising networks should monitor that adverts they publish on their ad networks and should have more accountability for what they allow. This is a serious reason to install Adblock especially on the computers of older people and children.
 
