@@ -14,8 +14,7 @@ permalink: /blog/
                     <img class="img-responsive" src="{{ "/assets/img/blog/" | prepend: site.baseurl }}{{ post.img }}" style = "width:100%">
                 </a>
                 <a href="{{ post.url | prepend: site.baseurl }}"><h3 class="ctitle">{{ post.title }}</h3></a>
-                <!-- <p><csmall>{{ post.date | date_to_string }}.</csmall></p>
-                <!-- | By: {% if page.author %} {{ page.author }} {% else %} {{ site.blog_name }}{% endif %}</csmall></p> -->
+                <p><csmall>{{ post.date | date: "%-d %b, %Y" }}. | By: {% if page.author %} {{ page.author }} {% else %} {{ site.blog_name }}{% endif %}</csmall></p>
                 <!-- {{ post.excerpt | truncatewords:75}} -->
                 {{ post.excerpt | truncatewords: 1000 }}
                 <!--more-->
