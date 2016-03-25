@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "What is ZeroNet"
-url-title: "What is ZeroNet"
+title:  "What is ZeroNet?"
+url-title: "What is ZeroNet?"
 date:   2016-03-08 22:49:21
 author:
 published: true
