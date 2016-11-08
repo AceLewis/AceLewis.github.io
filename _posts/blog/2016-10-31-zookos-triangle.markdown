@@ -13,7 +13,7 @@ tags:
 - p2p
 - zookos triangle
 
-
+img: thumbs/Zookos_Triangle.png
 thumb: Zookos_Triangle.png
 ---
 Zookos triangle states that for a domain name in a DNS (Domain Name System) can not be human readable, secure AND decentralized. It can be up to two of the three but not all three, how true is the statement?
