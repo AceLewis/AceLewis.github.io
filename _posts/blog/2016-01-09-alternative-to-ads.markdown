@@ -13,8 +13,8 @@ tags:
 - adblock
 
 
-img: patreon-image.jpg
-thumb: patreon-logo.png
+img: patreon.svg
+thumb: patreon-logo.svg
 ---
 
 I wrote a blog post on ["The Ethics of Adblock"](/blog/the-ethics-of-adblock){:target="_blank"}{{_}} stating that online Advertisements are a necessity to have free content however in this post I will explore the alternatives and explain my thoughts on why they will not work to monetize content on many websites.
