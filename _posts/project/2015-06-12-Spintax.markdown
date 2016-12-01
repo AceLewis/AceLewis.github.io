@@ -46,18 +46,18 @@ The above example Spintax can return 36 possibilities however this number grows 
 
 This code was originally made so the bots I code can respond with automated responses that are unique, I found that by doing this people tended to interact with the bot more. I also noticed that by displaying the same information different ways to people who had trouble understanding English (as it was not their native language) were more likely to understand the meaning of the sentence.
 
-There are many applications of Spintax from generating [memorable passwords](https://github.com/AceLewis/spintax/blob/master/examples/simple_password_generator.py){:target="_blank"}{{_}} and [usernames](https://github.com/AceLewis/spintax/blob/master/examples/super_hero_name_generator.py){:target="_blank"}{{_}} to making automated responses seem less robotic. Spintax is also often used for small local newspapers and news stations, instead of employing someone to write articles on specialised topics such as the current economy or other national things covered they outsource the writing to a company e.g. [Eurekalert](http://www.eurekalert.org/){:target="_blank"}{{_}} that will write a good article once using Spintax and then distribute many spun articles to their customers. This is often not noticed as most people only get one local newspaper, however this does create similar content and has been pointed out by many people including [Conan O'Brien](https://youtu.be/44ojS4UNn8I?t=16s){:target="_blank"}{{_}}.
+There are many applications of Spintax from generating [memorable passwords](https://github.com/AceLewis/spintax/blob/master/examples/simple_password_generator.py){:target="_blank"}{{_}} and [usernames](https://github.com/AceLewis/spintax/blob/master/examples/super_hero_name_generator.py){:target="_blank"}{{_}} to making automated responses seem less robotic. Spintax is useful for chat bots or for video game dialog so that responses seem more natural, this module can be extremely useful with Amazon Alexa skills (apps for Alexa) or other voice automation so that communication with the device seems less robotic.
 
 This module is simple to use;
 
     import spintax
     string = r"{Hey|Hello|Hi} {this|here} is {an example of|how to use} Spintax{.|!|}"
-    print(spintax.parse(string))
+    print(spintax.spin(string))
 
-Just input the string into the parse function and it will return the spun text, unlike other Spintax parsers this parser is allows the user to escape the syntax characters for example;
+Just input the string into the parse function and it will return the spun text, unlike other Spintax parsers this parser is allows for both nested spintax (spintax within spintax) and the abilerty to escape the syntax characters for example;
 
-    spintax.parse(r"\{example|shown|here}")
-    >> ['{example|shown|here}']
+    spintax.spin(r"\{example|shown|here}")
+    >> '{example|shown|here}'
 
 To download this module either download a copy from [Github](https://github.com/AceLewis/Spintax){:target="_blank"}{{_}} and install manually or use pip,
 
