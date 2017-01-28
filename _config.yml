@@ -80,10 +80,9 @@ clients:
 
 
 # FOOTER ABOUT, Shown in footer on every page
-about_footer: "I'm a 4th year Physicist at The University of Nottingham, I am interested in Physics, Maths, Programming and also play a few games in my spare time. I have an interest in data and have made webscrapers to gather information that I can then process, I am currently looking into nice ways to display information easily in infographics using Python. I can code in Matlab, Python and have also made a Steam trading bot in Node.JS."
-about_home: "I'm a 4th year Physicist at The University of Nottingham, I am interested in Physics, Maths, Programming and also play a few games in my spare time. I have an interest in data and have made webscrapers to gather information that I can then process, I am currently looking into nice ways to display information easily in infographics using Python. I can code in Matlab, Python and have also made a Steam trading bot in Node.JS."
+about_footer: "I am interested in Physics, Maths, Programming and also play a few games in my spare time. I have an interest in data and have made webscrapers to gather and process information, I am currently looking into nice ways to display information easily in infographics using Python. I can code in Matlab, Python and have also made a Steam trading bot in Node.JS."
+about_home: "I am interested in Physics, Maths, Programming and also play a few games in my spare time. I have an interest in data and have made webscrapers to gather and process information, I am currently looking into nice ways to display information easily in infographics using Python. I can code in Matlab, Python and have also made a Steam trading bot in Node.JS."
 about_about: "
-I am a Physicist at The University of Nottingham currently in my 4th and final year.
 I love Physics and also have a big interest in programming, before university I did a bit of
 programming in C++ and I enjoyed it however whilst at university I was taught Matlab
 a mathematical and statistical language aimed at scientists and engineers, Matlab
@@ -94,17 +93,7 @@ so anyone can use what I make in them.
 </p><p>
 I also love the hardware side technology from CPUs, CCDs, CMOSs and the semiconductors that
 build these up I have learned a lot about how they work on the
-nanoscale on my course and in my own time. I also
-did a summer internship in The University of Nottingham's Spintronics department the main focus was to
-see if and how the <a href=\"https://en.wikipedia.org/wiki/Spin_Hall_effect\">Spin Hall effect </a>
-could be used to store data for use in computers
-in creating long term storage, RAM, and CPU cache. If the Spin Hall effect could be used
-in computers the memory would be non-volatile meaning that unlike in traditional RAM
-where there would be no need for Memory refresh. Conventional RAM is volatile so
-it needs to be \"refreshed\", by using non-volatile memory the power usage would be
-reduced. This technology could potentially be used to create faster, cheaper,
-more reliable storage that has a much higher storage density however is far from
-being used in commercial products.
+nanoscale on my course and in my own time.
 </p><p>
 I also enjoy skiing, cycling, magic tricks, and I used to love playing football but I have not
 got the time to play in a team anymore.
@@ -112,9 +101,8 @@ got the time to play in a team anymore.
 
 # Testimonial content. Shown on Home and About page.
 testimonial:
-    message: "I am a 4th year Physicist at The University of Nottingham, I am interested in Physics, Maths, Programming and also play a few games in my spare time. I have an interest in data and have made webscrapers to gather information that I can then process, I am currently looking into nice ways to display information easily in infographics using Python. I can code in Matlab, Python and have also made a Steam trading bot in Node.JS."
+    message: "I am interested in Physics, Maths, Programming and also play a few games in my spare time. I have an interest in data and have made webscrapers to gather and process information, I am currently looking into nice ways to display information easily in infographics using Python. I can code in Matlab, Python and have also made a Steam trading bot in Node.JS."
     author: Alex Lewis (AceLewis)
-    # position: WEB DESIGNER - BLACKTIE.CO
 
 # CONTACT PAGE
 about_contact: "You can contact me on any of the sites listed, note I no longer make Steam Trade bots for people so please do not contact me about purchasing them however if you want a bit of help with Steam's API I will gladly help you out."
