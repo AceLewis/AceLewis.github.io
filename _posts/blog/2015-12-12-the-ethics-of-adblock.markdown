@@ -14,7 +14,7 @@ tags:
 - adverts
 
 img: adblock.png
-thumb: adblock-hand.png
+thumb: adblock-hand.svg
 ---
 
 <b>Adblock</b> is software used on computers and mobile devices whose main purpose is to block web advertisements. Adblock is growing in it's use and an estimated [20.3% of people in the UK use it](https://blog.pagefair.com/2015/ad-blocking-report/){:target="_blank"}{{_}}. Mobile phones have for a long time been a safe haven for online advertisements as installing Adblock meant either changing to a specialised browser or by Jailbreaking/Rooting the device.

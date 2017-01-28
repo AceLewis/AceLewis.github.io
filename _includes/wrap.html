@@ -2,6 +2,11 @@
     <div class="container">
         <div class="row">
             <h3>{% if page.wrap_title %}{{ page.wrap_title }}{% else %}{{ page.title }}{% endif %}</h3>
+            {% if page.title == 'Blog' %}
+            <p style="margin-left:15px; margin-right:15px"><font color="white">My blog for long form content and my opinions. My Posts are for little things I want to share.</font></p>
+            {% elsif page.title == 'Posts' %}
+            <p style="margin-left:15px; margin-right:15px"><font color="white">A place for Snippets, Trinkets and little things I want to share. My blog is for long form content and my opinions on things.</font></p>
+            {% endif %}
         </div>
     </div>
 </div>

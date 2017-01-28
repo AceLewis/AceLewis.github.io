@@ -14,7 +14,7 @@ tags:
 - blockchain
 
 
-img: /thumbs/bitcoin.svg
+img: thumbs/bitcoin.svg
 thumb: bitcoin.svg
 ---
 Bitcoin's blockchain is the centre of the cryptocurrency and contains every transaction that as ever happened in Bitcoins history. The file size of the blockchain is increasing, it is currently over 80 GB however when will it be over 1TB.

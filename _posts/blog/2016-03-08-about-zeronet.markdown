@@ -14,7 +14,7 @@ tags:
 
 
 img: zeronet-io.png
-thumb: zeronet-logo.png
+thumb: zeronet-logo.svg
 ---
 [ZeroNet](https://zeronet.io){:target="_blank"}{{_}} is a project that allows people to create decentalised peer to peer websites, as all websites are decentalised it is free to host, can't be geoblocked, it very resilient to censorship and is difficult to attack via DDOS. Although websites on ZeroNet are distributed across the network it is much more secure than the normal web as it uses "Bitcoin cryptography" aka websites are signed by the same public private key cryptography that is used in Bitcoin.
 <!--more-->

@@ -13,7 +13,7 @@ tags:
 - formats
 
 img: image-types.gif
-thumb: what-image-types.png
+thumb: what-image-types.svg
 ---
 
 There are a few image formats used on the web, this blog post is aims the explain what each one is in simple terms and also explain the situations where each format is appropriate. Some people argue over what image format people should use (all the time) however it is much better to understand the situations where specific image formats should and shouldn't be used and the situations where people abuse formats.
