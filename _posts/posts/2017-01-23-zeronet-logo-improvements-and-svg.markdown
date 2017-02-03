@@ -36,7 +36,7 @@ All the raw Inkscape files are on my Github, the Inkscape files can be compresse
 
 <div class="title-half">
     <div><b>PNG (7.26 KB)</b></div>
-    <div><b>SVG (973 bytes)</b></div>
+    <div><b>SVG (1002 bytes)</b></div>
 </div>
 
 <div class="container-half">
