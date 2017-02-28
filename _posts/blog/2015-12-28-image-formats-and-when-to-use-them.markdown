@@ -88,7 +88,7 @@ The GIF is an image format often used to share short moving images (without soun
 
 The reason why GIFs are still used is only because they allow the looping of moving images, it was initially intended for "cool" embedded email icons that you could embed into your HTML only website in the 1990's. The "Wow GIF" shown above would not look professional or even be used on any website now but if you can find old usually academic websites that do use GIFs in the way that they were intended e.g. [here](http://jila.colorado.edu/~ajsh/insidebh/index.html){:target="_blank"}{{_}}. Now GIFs are used to display videos with no sound however it is a really bad thing as each frame of the gif is a raw image so GIF videos tend to have huge file sizes and are often very slow to load. To reduce the file size GIFs tend to have a low frame rate, the bad image quality and blurred frames of a GIFs is shown below. (I don't want to embed a large GIF so you can see the GIF [on imgur.](http://i.imgur.com/q61ve2F.gif){:target="_blank"}{{_}})
 
-![Bad GIF](/assets/img/blog/image-types/gif.png){: .center-image }
+![Bad GIF](/assets/img/blog/image-types/gif.jpg){: .center-image }
 
 A bonus fact, GIFs don't need to loop they can be made to play just once however they are almost always used with the looping ability.
 
