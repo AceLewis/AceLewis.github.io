@@ -3,7 +3,7 @@
 # Site settings
 title: AceLewis.com
 description: "A website for me to do things with"
-blog_name: "Alexander Lewis (AceLewis)"
+blog_name: "AceLewis"
 analytics: UA-70463146-1 #Google analytics code in the format XX-nnnnnnnn-n
 baseurl: "" #important: start with /
 url: "https://acelewis.com"
@@ -63,7 +63,7 @@ tel: N/A
 
 # Members information. Shown on About page.
 members:
-  - name: Alexander Lewis
+  - name: AceLewis
     # position: Owner
     text: I like physics/science, technology, programming, data, open source, and the internet.
     img: AceLewisProfilePic.jpg
@@ -93,7 +93,7 @@ got the time to play in a team anymore.
 # Testimonial content. Shown on Home and About page.
 testimonial:
     message: "I am interested in Physics, Maths, Programming and also play a few games in my spare time. I have an interest in data and have made webscrapers to gather and process information, I am currently looking into nice ways to display information easily in infographics using Python. I can code in Matlab, Python and have also made a Steam trading bot in Node.JS."
-    author: Alex Lewis (AceLewis)
+    author: AceLewis
 
 # CONTACT PAGE
 about_contact: "You can contact me on any of the sites listed, note I no longer make Steam Trade bots for people so please do not contact me about purchasing them however if you want a bit of help with Steam's API I will gladly help you out."
