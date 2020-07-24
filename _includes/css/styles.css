@@ -90,8 +90,6 @@ a:focus {
 	BOOTSTRAP MODIFICATIONS & TWEAKS
 ################################################################# */
 .navbar {
-	min-height: 70px;
-	padding-top: 10px;
 	margin-bottom: 0px;
 }
 
@@ -184,7 +182,7 @@ a:focus {
 }
 
 .mtb {
-	margin-top: 80px;
+	margin-top: 25px;
 	margin-bottom: 20px;
 }
 
@@ -355,8 +353,8 @@ a:focus {
 
 /* Footer */
 #footerwrap {
-	padding-top: 60px;
-	padding-bottom: 60px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	background: {{ site.colors.secondary }};
     margin-left: auto;
     margin-right: auto;
@@ -394,10 +392,7 @@ a:focus {
 
 #blue {
 	background: {{ site.colors.primary }};
-	margin-top: 60px;
-	margin-bottom: 60px;
-	padding-top: 25px;
-	padding-bottom: 25px;
+	margin-top: 40px;
 }
 
 #blue h3 {

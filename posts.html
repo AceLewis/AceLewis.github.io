@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Posts
+title: Snippets
 permalink: /posts/
 ---
 
@@ -12,23 +12,23 @@ permalink: /posts/
             {% for post in site.categories['post'] %}
                 {% if post.img %}
                     <a href="{{ post.url | prepend: site.baseurl }}">
-                        <img class="img-responsive" src="{{ "/assets/img/blog/" | prepend: site.baseurl }}{{ post.img }}" style = "max-width:100%; max-height: 300px; display:block; margin-left:auto; margin-right:auto;" align="middle">
+                        <img class="img-responsive" src="{{ "/assets/img/blog/" | prepend: site.baseurl }}{{ post.img }}" style = "max-width:90%; max-height: 150px; display:block; margin-left:auto; margin-right:auto;" align="middle">
                     </a>
                 {% endif %}
-                <a href="{{ post.url | prepend: site.baseurl }}"><h3 class="ctitle">{{ post.title }}</h3></a>
-                <p><csmall>{{ post.date | date: "%-d %b, %Y" }}. | By: {% if page.author %} {{ page.author }} {% else %} {{ site.blog_name }}{% endif %}</csmall></p>
+                <a href="{{ post.url | prepend: site.baseurl }}"><h3 class="ctitle" style="margin-top: 5px;margin-bottom: 0px">{{ post.title }}</h3></a>
+                <p style="margin-top: 0px;margin-bottom: 0px"><csmall>{{ post.date | date: "%-d %b, %Y" }}. | By: {% if page.author %} {{ page.author }} {% else %} {{ site.blog_name }}{% endif %}</csmall></p>
                 <!-- {{ post.excerpt | truncatewords:75}} -->
                 {{ post.excerpt | truncatewords: 1000 }}
                 <!--more-->
-                <p><a href="{{ post.url | prepend: site.baseurl }}">[Read More]</a></p>
+                <p style="margin-top: 0px"><a href="{{ post.url | prepend: site.baseurl }}">[Read More]</a></p>
                 <div class="hline"></div>
 
-                <div class="spacing"></div>
+                <div class="spacing" style="margin-top: 10px;margin-bottom: 10px"></div>
             {% endfor %}
 
         </div>
 
-        {% include sidebar.html type='post'%}
+        {% include sidebar.html type='blog'%}
 
     </div>
 </div>

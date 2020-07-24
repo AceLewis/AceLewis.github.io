@@ -12,7 +12,6 @@
             <p class="rss-subscribe">Subscribe to this blog <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a>.</p>
         </p>
     {% comment %}
-    <div class="spacing"></div>
     <h4>Categories</h4>
     <div class="hline"></div>
     <p>
@@ -41,9 +40,7 @@
             {% endfor %}
         </ul>
 
-    <div class="spacing"></div>
-
-    <h4>Recent Posts</h4>
+    <h4>Recent Snippets</h4>
     <div class="hline"></div>
         <ul class="popular-posts">
             {% for post in site.categories['post'] limit:4 %}
@@ -55,15 +52,13 @@
             {% endfor %}
         </ul>
 
-    <div class="spacing"></div>
-    <h4>All Posts and Blog Posts</h4>
+    <h4>All Blog Posts and Snippets</h4>
     <div class="hline"></div>
     <p>
-        <p> <a href="{{ "/all_posts/" | prepend: site.baseurl }}">Click here to view all blog and other post I have written</a>.</p>
+        <p> <a href="{{ "/all_posts/" | prepend: site.baseurl }}">Click here to view all blog and snippets.</a></p>
     </p>
 
     {% include google.html %}
-    <div class="spacing"></div>
 
     <h4>Popular Tags</h4>
     <div class="hline"></div>
