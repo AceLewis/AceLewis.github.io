@@ -83,4 +83,4 @@ fever is caused by Leptospira canicola whose main host is dogs but can infect hu
 
 ## Conclusion
 
-Emoji flags are made of special letters, I have found words that can be spelt only with flags, with no flags and words that are palindromes/semordnilaps. The code that I used to find these is on GitHub (https://github.com/AceLewis/spelling-with-emoji-flags).
+Emoji flags are made of special letters, I have found words that can be spelt only with flags, with no flags and words that are palindromes/semordnilaps. The code that I used to find these is on [GitHub](https://github.com/AceLewis/spelling-with-emoji-flags){:target="_blank"}{{_}}.
