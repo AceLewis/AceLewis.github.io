@@ -12,7 +12,7 @@ tags:
 - Development
 
 img: github-octocat.png
-thumb: github.png
+thumb: github.svg
 ---
 
 This website will be cooler in the future as I have things planned to post on it but for now these test posts will showcase what the website will look like.
