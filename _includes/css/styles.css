@@ -564,6 +564,12 @@ img[alt$="-verybig"]{
     float:left;
 }
 
+.container-fourth{overflow:hidden;}
+.container-fourth img{
+    width:25%;
+    float:left;
+}
+
 .title-half
 {
     white-space: nowrap;
